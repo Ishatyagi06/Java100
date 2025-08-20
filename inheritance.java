@@ -1,5 +1,5 @@
 public class inheritance {
-    public final void display(){
-        System.out.println("I am in class A ");
+    public void display(String n){
+        System.out.println("I am in class A "+n);
     }
 }
