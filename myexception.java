@@ -1,12 +1,14 @@
+import java.io.DataInputStream;
 import java.util.*;
 public class myexception {
     public static void main(String[] args) {
         int x,y,z = 0;
-        Scanner sc = new Scanner(System.in);
+        DataInputStream dis = new DataInputStream(System.in);
+
         try
         {
-            x = sc.nextInt();
-            y = sc.nextInt();
+            x = dis.readInt();
+            y = dis.readInt();
             z = x/y; // exception occurs
             System.out.println("Exception not occur");
         }
