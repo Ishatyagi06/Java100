@@ -1,3 +1,5 @@
+package UNIT1;
+
 public class MynewException {
     public static void main(String[] args) {
         UserDefineException obj = new UserDefineException();
